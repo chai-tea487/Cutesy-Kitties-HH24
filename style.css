@@ -1,0 +1,46 @@
+/* * {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    width : 100
+    height : 100vh
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.burkedecor.com/cdn/shop/products/6017-42-W7231.jpg?v=1708908736)
+}
+
+.final {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.final div {
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    color: #ca30a1;
+    
+}
+
+.column-left button{
+    margin :0;
+    color: rgb(145, 39, 128) ;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 3rem;
+    font-size: 25px;
+    background:url(https://p16-va.lemon8cdn.com/tos-maliva-v-ac5634-us/oUtDWBxnDeAIuALl0TJFEStyECMfRAFJiQDN17~tplv-tej9nj120t-origin.webp);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+}
